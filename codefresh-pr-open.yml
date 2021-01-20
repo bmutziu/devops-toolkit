@@ -51,7 +51,7 @@ spec:
       title: Adding PR info
       type: image-enricher
       arguments:
-        IMAGE: bmutziu/devops-toolkit/devops-toolkit:${{CF_SHORT_REVISION}}
+        IMAGE: bmutziu/devops-toolkit:${{CF_SHORT_REVISION}}
         BRANCH: '${{CF_BRANCH}}'
         REPO: "${{CF_REPO_OWNER}}/${{CF_REPO_NAME}}"
         GIT_PROVIDER_NAME: github
