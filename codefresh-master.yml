@@ -42,7 +42,7 @@ spec:
         image_name: bmutziu/devops-toolkit
         tags:
         - ${{CF_SHORT_REVISION}}
-        registry: docker-hub
+        registry: dockerhub
       stage: release
     clone_env_repo:
       title: Cloning production env. repo
